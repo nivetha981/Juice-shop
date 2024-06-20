@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juicy's juice shop</title>
+    <link rel="stylesheet" href="style.css">  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Playpen+Sans:wght@100;300&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+ <section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times"onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">product</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+<div class="text-box">
+    <h1>Fresh juice for sure</h1>
+    <p>
+        Making website is now one of the esiest thing in the world
+    </p>
+    <a href=""class="hero-btn">visit us to know more</a>
+</div>
+ </section>
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right="-200px";
+    }
+ </script>  
+ 
+ <section class="testimonials">
+    <h1>
+        What our Cuostomer says!
+    </h1>
+    <div class="row">
+        <div class="testimonal-col">
+            <img src="images/user1.jpg">
+            <div>
+                <p>
+                    Recently i visited the page of Juicy's juice and bought pack of six mixer 
+                    its originally organic.i liked it.
+                </p>
+                <h3>
+                    swetha
+                </h3>
+                <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+            </div>
+        </div>
+        <div class="testimonal-col">
+            <img src="images/user2.jpg">
+            <div>
+                <p>
+                    Two days ago i oredered raw pressed mango juice its really good 
+                    also i suggested my friends to buy it:)
+                </p><h3>
+                    Vikash
+                </h3>
+                <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="cta">
+    <h1>Buy our products from our page and <br>Avail upto 30% offer</h1>
+    <a href=""class="hero-btn">contact us</a>
+
+</section>
+<section class="footer">
+    <h2>About us</h2>
+    <p>
+        A leading juice dealer in market
+    </p>
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-regular fa-heart"></i>and Care</p>
+    <footer>
+        <p>@copyright 2023 at juicy's juice</p>
+    </footer>
+</section>
+
+
+</body>
+</html>
