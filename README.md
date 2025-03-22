@@ -1,5 +1,4 @@
 # Juice-shop
-Here’s a description you can use for your web development project:  
 
 **Juice Shop Website**  
 
